@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--========= CSS =========-->
+    <link rel = "stylesheet" href = "assets/css/style.css">
+
+    <!--========= LINE ICONS =========-->
+    <link rel = "stylesheet" href = "https://cdn.lineicons.com/3.0/lineicons.css" >
+
+    <!--========= SWIPER CSS =========-->
+    <link rel = "stylesheet"  href = "https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <title>Portfolio Website </title>
+</head>
+<body>
+
+    <!--==== HEADER ===-->
+    <header class="header" id="header">
+    <!-- nav -->
+        <nav class="nav container padd-15">
+            <!-- nav Logo -->
+            <a href="#" class="nav-logo">
+                <h2>PK</h2>
+            </a>
+            <!-- nav menu -->
+            <div class="nav-menu" id="nav-menu">
+                <!-- nav list -->
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#accounts" class="nav-link">Accounts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#cerificates" class="nav-link">Certificates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- nav btn -->
+            <div class="nav-btns">
+                <!-- theme change btn -->
+                <i class="lni lni-pallet change-theme" id="theme-button"></i>
+                <!-- toggle btn -->
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="lni lni-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+</header>
+
+    <!--========= MAIN =========-->
+    <main class = "main-content">
+        <!--========= HOME =========-->
+        <section class ="home" id="home">
+            <div class="container">
+                <!-- intro -->
+                <div class="intro">
+                    <!--avatar image-->
+                    <img src="assets/images/PK-1.png" alt = "PK">
+                    <!-- info-->
+                    <h1> Piyush KumaR</h1>
+                    <div class = "wrapper">
+                        <div class="static-txt">I'm a</div>
+                        <ul class="dynamic-txt">
+                            <li><span>App Developer</span></li>
+                            <li><span>Web Designer</span></li>
+                            <li><span>Financial Analyst</span></li>
+                            <li><span>Photographer</span></li>
+                            
+                        </ul>
+                    </div>
+                    <!-- social icons-->
+                    <ul class="social-icons">
+                        <li><a href = "#"> <i class = "lni lni-instagram-original"></i></a></li>
+                        <li><a href = "https://www.linkedin.com/in/piyush-kumar-a883731b9/"> <i class = "lni lni-linkedin-original"></i></a></li>
+                        <li><a href = "https://github.com/PiyushKumar-18-AI"> <i class = "lni lni-github-original"></i></a></li>
+                        <li><a href = "#"> <i class = "lni lni-twitter-original"></i></a></li>
+                    </ul>
+                    <!--button-->
+                    <div>
+                        <a href="#" class="btn btn-default">Hire Me</a>
+                    </div>
+                    <!-- scroll down mouse wheel-->
+                    <div class="scroll-down">
+                        <a href="#" class="mouse-wrapper">
+                            <span>Scroll Down</span>
+                            <span class="mouse">
+                                <span class="wheel"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--============ About ==========-->
+        <section class="about section" id="about">
+            <div class="container">
+                <!-- section title-->
+                <h2 class="section-title padd-15">About Me</h2>
+                <div class="row">
+                    <div class="about-img padd-15">
+                        <!--avatar img-->
+                        <img src="assets/images/PK-2.png" alt="">
+                    </div>
+                    <div class="about-content padd-15">
+                        <div class="rounded">
+                            <div class="row">
+                                <div class="about-text">
+                                    <!-- about text-->
+                                    <p>Experienced Treasurer with a demonstrated history of working in the computer software industry. Skilled in Python, C++ (Programming Language), Analytical Skills, & Data Science. Pursuing B. Tech-focused in Computer Science and Artificial Intelligence from Bennett University. 
+                                        </p>
+                                    <div>
+                                        <a href="#" class="btn btn-default"> Download CV</a>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class = "row">
+                                        <!-- skill item-->
+                                        <div class="skill-item">
+                                            <h4>Full Stack Dev.</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%; background: rgb(255,209,92);"></div>
+                                                <div class="skill-percent">75%</div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item-->
+                                        <div class="skill-item">
+                                            <h4>App Dev.</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%; background: rgb(255,70,96)"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item-->
+                                        <div class="skill-item">
+                                            <h4>DSA</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%; background: rgb(108,108,229)"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item-->
+                                        <div class="skill-item">
+                                            <h4>Fin. Anlst.</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%; background: rgb(171, 240, 92)"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--fact items-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-thumbs-up"></i>
+                        <div class="details">
+                            <h3>15</h3>
+                            <p>Project Done</p>
+                        </div>
+                    </div>
+                    <!--fact items-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-certificate"></i>
+                        <div class="details">
+                            <h3>10</h3>
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                    <!--fact items-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-medium"></i>
+                        <div class="details">
+                            <h3>5</h3>
+                            <p>Blogs</p>
+                        </div>
+                    </div>
+                    <!--fact items-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-users"></i>
+                        <div class="details">
+                            <h3>10</h3>
+                            <p>Satisfied Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!--========= PROJECTS =========-->
+        <services>
+
+        </services>
+    </main>
+
+    <!--========= SWIPER JS =========-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--========= JS =========-->
+    <script src = "assets/js/main.js"></script>
+
+</body>
+</html>
