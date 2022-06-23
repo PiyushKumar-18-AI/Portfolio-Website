@@ -432,13 +432,14 @@ h3
 .about-img
 {
     flex: 0 0 25%;
+    margin-top: 5%;
     max-width: 75%;
+    border-radius: 25px;
 }
 .about-content
 {
     flex: 0 0 75%;
     max-width: 75%;
-    
 }
 .about-content .about-text,
 .about-content .about-skills
@@ -510,6 +511,121 @@ h3
     font-size: var(--h2-font-size);
     color: var(--color-gray);
 }
-/*
-richiee rich
-*/
+
+/*========== PROJECTS ========*/
+
+.project .project-item img
+{
+    border-radius: 20%;
+    flex: 0 0 25%;
+    max-width: 75%;
+    margin-bottom: var(--m-1-5);
+}
+.project .project-item
+{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+.project .project-item .project-item-inner 
+{
+    border-radius: var(--border-radius);
+    padding: var(--card-padding);
+    text-align: center;
+    transform: translateY(0);
+    transition: 0.3s;
+}
+.project .project-item .project-item-inner:hover{
+    transform: translateY(-0.625rem);
+}
+.project-item h3
+{
+    margin-bottom: var(--m-0-5);
+    font-weight: 800;
+}
+.project-item p 
+{
+    color: #fff;
+}
+.project h2
+{   
+    font-size: 2.25rem;
+    margin-bottom: var(--m-1-5);
+}
+.text
+{
+    text-align: center;
+    margin-top: var(--m-1-5);
+}
+.text a
+{
+    color: var(--color-primary);
+}
+
+/*========== Experience ========*/
+.education{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.experience
+{
+
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.timeline-box
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.timeline
+{
+    background-color: var(--color-white);
+    padding: 1.9rem 0.95rem;
+    border-radius: var(--border-radius);
+    width: 100%;
+    position: relative;
+}
+
+.timeline .timeline-item
+{
+    position: relative;
+    padding-left: 2.5rem;
+    padding-bottom: 1.9rem;
+}
+
+.timeline .timeline-item:last-child{
+    padding-bottom: 0;
+}
+
+.timeline .timeline-item::before
+{
+    content: '';
+    width: 1px;
+    position: absolute;
+    height: 100%;
+    left: var(--m-0-5);
+    background-color: var(--color-primary);
+    top: 0;
+}
+.timeline .timeline-icon
+{
+    position: absolute;
+    left: -0.25rem;
+    top: 0;
+    font-size: 1.5rem;
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
+.timeline .timeline-date
+{
+    font-size: var(--small-font-size);
+    color: var(--color-gray);
+}
+.timeline .timeline-date lni
+{
+    margin-right: 0.3rem ;
+}
+.timeline .timeline-title
+{
+    margin: var(--m-0-75);
+}
