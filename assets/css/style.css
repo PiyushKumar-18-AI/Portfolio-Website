@@ -854,8 +854,3 @@ h3
     row-gap: 2rem;
     margin-bottom: var(--m-2-5);
 }
-.contact-content{
-    position: relative;
-    height: 3rem;
-    border-bottom: 2px solid var(--color-gray);
-}
