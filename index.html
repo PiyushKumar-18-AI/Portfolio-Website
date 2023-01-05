@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========= LINE ICONS =========-->
+    <link rel = "stylesheet" href = "https://cdn.lineicons.com/3.0/lineicons.css" >
+
+    <!--========= SWIPER CSS =========-->
+    <link rel = "stylesheet"  href = "https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <!--========= CSS =========-->
+    <link rel = "stylesheet" href = "assets/css/style.css">
+
+    <title>Portfolio Website </title>
+</head>
+<body>
+
+    <!--==== HEADER ===-->
+    <header class="header" id="header">
+    <!-- nav -->
+        <nav class="nav container padd-15">
+            <!-- nav Logo -->
+            <a href="#" class="nav-logo">
+                <h2>PK</h2>
+            </a>
+            <!-- nav menu -->
+            <div class="nav-menu" id="nav-menu">
+                <!-- nav list -->
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link" >Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#cerificates" class="nav-link active-link">Certificates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- nav btn -->
+            <div class="nav-btns">
+                <!-- theme change btn -->
+                <i class="lni lni-pallet change-theme" id="theme-button"></i>
+                <!-- toggle btn -->
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="lni lni-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+</header>
+
+    <!--========= MAIN =========-->
+    <main class = "main-content">
+        <!--========= HOME =========-->
+        <section class ="home" id="home">
+            <div class="container">
+                <!-- intro -->
+                <div class="intro">
+                    <!--avatar image-->
+                    <img src="assets/images/PK-1.png" alt = "PK">
+                    <!-- info-->
+                    <h1> Piyush KumaR</h1>
+                    <div class = "wrapper">
+                        <div class="static-txt">I'm a</div>
+                        <ul class="dynamic-txt">
+                            <li><span>Tech Geek</span></li>
+                            <li><span>RC Pilot</span></li>
+                            <li><span>Financial Analyst</span></li>
+                            <li><span>Photographer</span></li>
+                        </ul>
+                    </div>
+                    <!-- social icons-->
+                    <ul class="social-icons">
+                        <li><a href = "#"> <i class = "lni lni-instagram-original"></i></a></li>
+                        <li><a href = "https://www.linkedin.com/in/piyush-kumar-a883731b9/"> <i class = "lni lni-linkedin-original"></i></a></li>
+                        <li><a href = "https://github.com/PiyushKumar-18-AI"> <i class = "lni lni-github-original"></i></a></li>
+                        <li><a href = "mailto:piyushkumar000018@gmail.com"> <i class = "lni lni-envelope"></i></a></li>
+                    </ul>
+                    <!--button-->
+                    <div>
+                        <a href="#" class="btn btn-default">Hire Me</a>
+                    </div>
+                    <!-- scroll down mouse wheel-->
+                    <div class="scroll-down">
+                        <a href="#" class="mouse-wrapper">
+                            <span>Scroll Down</span>
+                            <span class="mouse">
+                                <span class="wheel"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--============ About ==========-->
+        <section class="about section" id="about">
+            <div class="container">
+                <!-- section title-->
+                <h2 class="section-title padd-15">About Me</h2>
+                <div class="row">
+                    <div class="about-img padd-15">
+                        <!--avatar img-->
+                        <img src="assets/images/PK.jpg" alt="">
+                    </div>
+                    <div class="about-content padd-15">
+                        <div class="rounded">
+                            <div class="row">
+                                <div class="about-text">
+                                    <!-- about text-->
+                                    <p>I am well-versed in Flutter, iOS Development, Full Stack Development, Machine Learning, Computer Vision, and Analytical Skills. Aside from all of this, I'm quite interested in finances, and have actively learning & investing in the stock market and mutual funds. Pursuing B. Tech-focused in Computer Science and Artificial Intelligence from Bennett University. 
+                                        </p>
+                                    <div>
+                                        <a href="#" class="btn btn-default"> Download CV</a>
+                                    </div>
+                                </div>
+                                <div class="skills padd-15">
+                                    <div class = "row">
+                                        <!-- skill item-->
+                                        <div class="skill-item">
+                                            <h4>Full Stack Dev.</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 85%; background: rgb(255,209,92);"></div>
+                                                <div class="skill-percent">85%</div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item-->
+                                        <div class="skill-item">
+                                            <h4>App Dev.</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 80%; background: rgb(255,70,96)"></div>
+                                                <div class="skill-percent">80%</div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item-->
+                                        <div class="skill-item">
+                                            <h4>Financial Analyst </h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 75%; background: rgb(108,108,229)"></div>
+                                                <div class="skill-percent">75%</div>
+                                            </div>
+                                        </div>
+                                        <!-- skill item-->
+                                        <div class="skill-item">
+                                            <h4>DSA</h4>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%; background: rgb(171, 240, 92)"></div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--fact items-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-thumbs-up"></i>
+                        <div class="details">
+                            <h3>5</h3>
+                            <p>Project Done</p>
+                        </div>
+                    </div>
+                    <!--fact items-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-certificate"></i>
+                        <div class="details">
+                            <h3>15</h3>
+                            <p>Certifications</p>
+                        </div>
+                    </div>
+                    <!--fact items-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-medium"></i>
+                        <div class="details">
+                            <h3>5</h3>
+                            <p>Blogs</p>
+                        </div>
+                    </div>
+                    <!--fact items-->
+                    <div class="fact-item padd-15">
+                        <i class="lni lni-flag-alt"></i>
+                        <div class="details">
+                            <h3>2</h3>
+                            <p>Internships</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!--========= PROJECTS =========-->
+        <section class ="project">
+            <div class="container">
+                <!-- section tile-->
+                <h2 class="section-tile padd-15">Projects</h2>
+                <div class="row">
+                    <!-- project item -->
+                    <div class="project-item padd-15">
+                        <a href="https://github.com/PiyushKumar-18-AI/GeoZapp-EVC-India"><div class="project-item-inner" style="background: rgb(233, 94, 112);">
+                            <img src = "assets/images/GeoZapp Logo.png" alt="P-1">
+                            <h3>GeoZapp - EVC India</h3>
+                            <p>GeoZapp aims to assist you in locating nearby charging stations as well as it also gives you extensive information about the stations so that you never fear of your EV getting discharged. It is built using Flutter, API's for Maps and Firebase for User Validation.</p>
+                        </div></a>
+                    </div>
+                    <!-- project item -->
+                    <div class="project-item padd-15">
+                        <a href="https://github.com/PiyushKumar-18-AI/DiabetesPredictionSystem"><div class="project-item-inner" style="background: rgb(233, 94, 112);">
+                            <img src = "assets/images/PK-8.png"  alt="P-1">
+                            <h3>Diabetes Predition </h3>
+                            <p>Diabetes Prediction System is a web application developed using Django and ML Algorithms. It provides healthcare interface where a patient may give the required inputs of the medical tests in the web app and check if they are diabetic or not.</p>
+                        </div></a>
+                    </div>
+                    <!-- project item -->
+                    <div class="project-item padd-15">
+                        <a href="https://github.com/PiyushKumar-18-AI/Visio"><div class="project-item-inner" style="background: rgb(233, 94, 112);">
+                            <img src = "assets/images/VISIÒ.png" alt="P-1">
+                            <h3>VISIÒ</h3>
+                            <p>Visiò is an iOS application that can be used by working professions to scan visiting cards and make a database from the scanned visiting cards. It also provides scanning interface of Live text with ability to select content type and Scanning QR or Barcode.</p>
+                        </div></a>
+                    </div>
+                </div>
+                <div class="text padd-15">
+                    <p>To Check More Projects built by me, <a href="https://github.com/PiyushKumar-18-AI?tab=repositories"> Click Here </a>..</p>
+                </div>
+            </div>
+        </section>
+        <!--========= Experience =========-->
+        <section class="section" id="experience">
+            <div class="container">
+                <!-- section title-->
+                <h2 class="section-title padd-15">Experience</h2>
+                <div class="row">
+                    <!-- Education -->
+                    <div class="education padd-15">
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class = "lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class = "lni lni-calendar"></i> October 2020 - Present
+                                        </h3>
+                                        <h3 class="timeline-title">Bachelor's Degree</h3>
+                                        <p class="timeline-text">Persuing my Bachelor's Degree of B.Tech from Bennett University in Computer Science Enginnering with Artificial Intelligence. <br>I'm Currently in the 6th Semester of my Degree with 8.2 CGPA scale out of 10. </p>
+                                    </div>
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class = "lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class = "lni lni-calendar"></i> April 2018 - March 2020
+                                        </h3>
+                                        <h3 class="timeline-title">High School</h3>
+                                        <p class="timeline-text">Secured 75% in CBSE Board from Gyanodaya Senior Secondary Public School, New Delhi. <br>I Scored 97.2 Percentile in JEE Mains - January, 2020</p>
+                                    </div>
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class = "lni lni-graduation timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class = "lni lni-calendar"></i> April 2017 - March 2018
+                                        </h3>
+                                        <h3 class="timeline-title">Class 10th</h3>
+                                        <p class="timeline-text">Secured 85% in CBSE Board from Father Agnel School, Noida.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <!-- Experience -->
+                    <div class="experience padd-15">
+                        <div class="row">
+                            <div class="timeline-box">
+                                <div class="timeline">
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class = "lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class = "lni lni-calendar"></i> May 2022 - July 2022
+                                        </h3>
+                                        <h3 class="timeline-title">Intern at NEC, India</h3>
+                                        <p class="timeline-text">Got Trained as a Data Analyst to developing an AI model for Parametric Insurance for Disasters in Agriculture Sector.</p>
+                                    </div>
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class = "lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class = "lni lni-calendar"></i> October 2021 - October-2022
+                                        </h3>
+                                        <h3 class="timeline-title">Treasurer at ACM-BU, Greater Noida </h3>
+                                        <p class="timeline-text">
+                                            Worked as the Treasurer of ACM Organization of Bennett University and build up my skills in diversified areas such as Treasury Management, Sponsorship, Event Planning and Management, Cash Management.</p>
+                                    </div>
+                                    <!-- timeline item -->
+                                    <div class="timeline-item">
+                                        <i class = "lni lni-briefcase timeline-icon"></i>
+                                        <h3 class="timeline-date">
+                                            <i class = "lni lni-calendar"></i> April 2021 - Present
+                                        </h3>
+                                        <h3 class="timeline-title">Drone Pilot</h3>
+                                        <p class="timeline-text">I completed my Drone Flying Traning in June 2021 from Drone Destination - IGRUA.I’ve successfully completed over 250+ Flights.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--========= Certificates =========-->  
+        <section class="certificate section" id="certificates">
+            <div class="container">
+                <!-- certificate title-->
+                <h2 class="certificate-title padd-15">Certificates</h2>
+                <div class="row">
+                    <div class="certificate-filter padd-15">
+                    </div>
+                </div>
+                <div class="row">
+                    <!--certificate item-->
+                    <div class="certificate-item padd-15">
+                        <a href = "https://www.coursera.org/account/accomplishments/certificate/SZ6RP6R3UQNE">
+                        <div class="certificate-item-inner">
+                            <div class="certificate-item-thumbnail">
+                                <img src = "assets/images/C1.png" alt="C-1">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Issued by DeepLearning.AI</span>
+                            <h3 class="certificate-item-title">Advanced Computer Vision with Tensorflow</h3>
+                        </div></a>
+                    </div>
+                    <!--certificate item-->
+                    <div class="certificate-item padd-15">
+                        <a href = "https://www.coursera.org/account/accomplishments/specialization/certificate/2UYKA5MHF2EV">
+                        <div class="certificate-item-inner">
+                            <div class="certificate-item-thumbnail">
+                                <img src = "assets/images/C2.png" alt="C-2">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Issued by University of Pennsylvania</span>
+                            <h3 class="certificate-item-title">Intellectual Property Law</h3>
+                        </div></a>
+                    </div>
+                    <!--certificate item-->
+                    <div class="certificate-item padd-15">
+                        <a href = "
+                        https://www.coursera.org/account/accomplishments/specialization/certificate/AW9JJN8BZMZ7">
+                        <div class="certificate-item-inner">
+                            <div class="certificate-item-thumbnail">
+                                <img src = "assets/images/C3.png" alt="C-3">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Authorized by Google</span>
+                            <h3 class="certificate-item-title">Google Data Analytics</h3>
+                        </div></a>
+                    </div>
+                    <!--certificate item-->
+                    <div class="certificate-item padd-15">
+                        <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/QDLA69LG2NLV">
+                        <div class="certificate-item-inner">
+                            <div class="certificate-item-thumbnail">
+                                <img src = "assets/images/C-3.png" alt="C-4">
+                                <div class="mask"></div>
+                            </div>
+                            <div class="term">Authorized by Google</div>
+                            <h3 class="certificate-item-title">Google IT Automation with Python</h3>
+                        </div></a>
+                    </div>
+                    <!--certificate item-->
+                    <div class="certificate-item padd-15">
+                        <a href = "https://www.coursera.org/account/accomplishments/certificate/ZN85FSVAXVUJ">
+                        <div class="certificate-item-inner">
+                            <div class="certificate-item-thumbnail">
+                                <img src = "assets/images/C-1.png" alt="C-1">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Authorized by University of Michigan</span>
+                            <h3 class="certificate-item-title">Applied Machine Learning in Python</h3>
+                        </div></a>
+                    </div>
+                    <!--certificate item-->
+                    <div class="certificate-item padd-15">
+                        <a href = "https://www.credly.com/badges/4bd101a7-68cd-41b4-b349-0e233c929ba5">
+                        <div class="certificate-item-inner">
+                            <div class="certificate-item-thumbnail">
+                                <img src = "assets/images/C-4.png" alt="C-1">
+                                <div class="mask"></div>
+                            </div>
+                            <span class="term">Authorized by Amazon Web Services</span>
+                            <h3 class="certificate-item-title">AWS Academy Graduate - AWS Academy ML Foundations</h3>
+                        </div></a>
+                    </div>
+                </div>
+                <div class="text padd-15">
+                    <p>To Check More Certificates , <a href="https://www.linkedin.com/in/piyush-kumar-a883731b9/details/certifications/"> Click Here </a>..</p>
+                </div>
+            </div>
+        </section>
+        
+       <!--========= Blog =========
+        <section class="section" id="blog">
+            <div class="container">
+                <--section title
+                <h2 class="section-title padd-15">Latest Blogs</h2>
+                <div class="row">
+                    <--blog item
+                    <div class="blog-item padd-15">
+                        <div class="inner">
+                            <div class="thumb">
+                                <a href="https://medium.com/@piyushkumar000018/ai-india-c58ee99515a0"><img src="assets/images/AI-C.png" alt=" "> </a>
+                            </div>
+                            <div class="details">
+                                <h3 class="title"><a href="https://medium.com/@piyushkumar000018/ai-india-c58ee99515a0">AI India</a></h3>
+                                <ul class="meta">
+                                    <li>20 December, 2020</li>
+                                    <li>PK</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                     <--blog item
+                     <div class="blog-item padd-15">
+                        <div class="inner">
+                            <div class="thumb">
+                                <a href="https://medium.com/@piyushkumar000018/geozapp-evc-india-5306925b03d0"><img src="assets/images/G-C.png" alt=" "> </a>
+                            </div>
+                            <div class="details">
+                                <h3 class="title"><a href="https://medium.com/@piyushkumar000018/geozapp-evc-india-5306925b03d0">GeoZapp EVC-India</a></h3>
+                                <ul class="meta">
+                                    <li>21 November, 2021</li>
+                                    <li>PK</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                     <--blog item
+                     <div class="blog-item padd-15">
+                        <div class="inner">
+                            <div class="thumb">
+                                <a href="https://medium.com/@piyushkumar000018/backtracking-algorithm-65732e749f7"><img src="assets/images/BT.png" alt=" "> </a>
+                            </div>
+                            <div class="details">
+                                <h3 class="title"><a href="https://medium.com/@piyushkumar000018/backtracking-algorithm-65732e749f7">BackTracking Algorithm</a></h3>
+                                <ul class="meta">
+                                    <li>10 April, 2022</li>
+                                    <li>PK</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text padd-15">
+                    <p>To Check More of my Blogs , <a href="https://medium.com/@piyushkumar000018"> Click Here </a>..</p>
+                </div>
+            </div>
+        </section>-->
+        <!--========= Testimonial =========-->
+        <section class = "section">
+            <div class = "container">
+                <!-- testimonial title-->
+                <h2 class="section-title padd-15">Recommendations</h2>
+                <!-- testimonial wrapper-->
+                <div class="swiper testimonial-wrapper">
+                    <div class="swiper-wrapper">
+                        <!-- testimonial item-->
+                        <div class="testimonial-item swiper-slide">
+                            <div class="thumb">
+                                <img src = "assets/images/UG.png" alt = "">
+                            </div>
+                            <h3> Umesh Gupta</h3>
+                            <span class = "subtitle">Assistant Professor, Bennett University, India</span>
+                            <div class = "comment">Piyush is a young and talented person. I believe in your dreams. I know your specialties. Sometimes you forget your talent when you choose your profession based merely on your educational qualification and certificate. So Don't neglect your interest and specialization and your talent which can inspire a lot many people.</div>
+                        </div>
+                        <!-- testimonial item-->
+                        <div class="testimonial-item swiper-slide">
+                            <div class="thumb">
+                                <img src = "assets/images/SD.png" alt = "">
+                            </div>
+                            <h3> Sudip Dutt</h3>
+                            <span class = "subtitle">Managing Director, Horizon Technologies, Greater Noida, India</span>
+                            <div class = "comment">Piyush is a young and talented person. I believe in your dreams. I know your specialties. Sometimes you forget your talent when you choose your profession based merely on your educational qualification and certificate. So Don't neglect your interest and specialization and your talent which can inspire a lot many people.</div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <!--========= Certificates =========--> 
+        <section class="contact">
+            <div class="container">
+                <!--section title-->
+                <h2 class = "section-tile padd-15">Contact Me</h2>
+                <div ckass="row">
+                    <!--contact box-->
+                    <div class="contact-box padd-15">
+                        <div class="contact-data">
+                            <!--contact information-->
+                            <div class="contact-information">
+                                <h3 class="contact-subtitle">Call Me for Instant Support</h3>
+                                <span class="contact-description">
+                                    <i class="lni lni-phone contact-icon"></i>
+                                    +91-9560099599
+                                </span> 
+                            </div>
+                            <!--contact information-->
+                            <div class="contact-information">
+                                <h3 class="contact-subtitle">Mail ID</h3>
+                                <span class="contact-description">
+                                    <i class="lni lni-user contact-icon"></i>
+                                    piyushkumar000018@gmail.com
+                                </span> 
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--========= SWIPER JS =========-->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--========= JS =========-->
+    <script src = "assets/js/main.js"></script>
+
+</body>
+</html>
