@@ -823,3 +823,39 @@ h3
     height: 0.375rem;
     border-radius: .5rem;
 }
+
+/*======== Contact ========*/
+
+.contact-box{
+    flex : 0 0 40%;
+    max-width: 40%;
+}
+.contact-form{
+    flex : 0 0 60%;
+    max-width: 60%;
+}
+.contact-data{
+    display: grid;
+    row-gap: 2rem;
+}
+.contact-subtitle{
+    margin-bottom: var(--m-0-5);
+}
+.contact-description{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+.contact-item{
+    font-size: 1.2rem;
+}
+.contact-inputs{
+    display: grid;
+    row-gap: 2rem;
+    margin-bottom: var(--m-2-5);
+}
+.contact-content{
+    position: relative;
+    height: 3rem;
+    border-bottom: 2px solid var(--color-gray);
+}
