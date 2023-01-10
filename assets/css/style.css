@@ -908,3 +908,37 @@ h3
     z-index: 10px;
     color: var(--color-primary);
 }
+
+/*======== footer ========*/
+.footer{
+    padding: 60px 0;
+}
+.footer-text{
+    text-align: center;
+}
+.footer-text .social-icons
+{
+    margin-top: var(--m-1);
+    margin-bottom: var(--m-1);
+}
+
+.footer-text  .social-icons li
+{
+    display: inline-block;
+}
+.footer-text  .social-icons li:not(:last-child)
+{
+    margin-right: var(--m-1-5);
+}
+
+.footer-text .social-icons a
+{
+    font-size: var(--h3-font-size);
+}
+.footer-text span{
+    text-transform: uppercase;
+    color: var(--color-primary);
+    font-weight: 200;
+}
+
+
