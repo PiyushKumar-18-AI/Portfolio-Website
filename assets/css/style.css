@@ -50,6 +50,16 @@ html{
        --box-shadow: 0px 5px 20px 0px rgba(69,67,96,0.1);
 
 }
+/*===== Responsive Typography =====*/
+@media screen and (max-width:992px) {
+    .root{
+        --h1-font-size: 1.75rem;
+        --h2-font-size: 1.5rem;
+        --h3-font-size: 1rem;
+        --normal-font-size: .938rem;
+        --small-font-size: .813rem;
+    }
+}
 /*===== Base =====*/
 *
 {
@@ -123,7 +133,7 @@ h3
 }
 .section-title
 {
-    font-size: 2.25rem;
+    font-size: var(--h1-font-size);
     margin-left:var(--m-0-75);
     margin-bottom: var(--m-1-5);
 }
@@ -954,6 +964,7 @@ h3
     display: grid;
     place-items: center;
     font-size: var(--small-font-size);
+    display: none;
 }
 .coustomize-theme .card{
     background: var(--color-white);
