@@ -929,7 +929,7 @@ h3
 .footer-text .social-icons
 {
     margin-top: var(--m-1);
-    margin-bottom: var(--m-1);
+    margin-bottom: var(--m-1-5);
 }
 
 .footer-text  .social-icons li
