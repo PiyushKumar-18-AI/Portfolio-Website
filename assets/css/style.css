@@ -195,7 +195,7 @@ h3
 /*=== NAV ===*/
 .nav
 {
-    height: calc(var(--header-height) + 1.5rem);
+    height: calc(var(--header-height) + .005rem);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -304,6 +304,8 @@ h3
 .home .intro .wrapper
 {
     display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .home .intro .wrapper .static-txt
@@ -328,7 +330,7 @@ h3
     font-weight: 500;
     position: relative;
     top: 0;
-    animation: slide 10s steps(4) infinite;
+    animation: slide 6s steps(4) infinite;
 }
 @keyframes slide {
     100%{
@@ -345,9 +347,11 @@ h3
     content: "";
     position: absolute;
     left: 0;
+    height: 100%;
+    width: 100%;
     background-color: var(--color-light);
     border-left: 2px solid #fc6d6d ;
-    animation: typing 1s steps(10) infinite;
+    animation: typing 1.5s steps(10) infinite;
 }
 @keyframes typing {
     100%{
@@ -578,19 +582,27 @@ h3
 
 /*========== Experience ========*/
 .education{
-    flex: 0 0 50%;
-    max-width: 50%;
+    align-items: center;
+    margin-left: 10rem;
+    margin-bottom: 4rem;
 }
 .experience
 {
-
-    flex: 0 0 50%;
-    max-width: 50%;
+    align-items: center;
+    margin-left: 10rem;
 }
 .timeline-box
 {
-    flex: 0 0 100%;
-    max-width: 100%;
+    flex: 0 0 85%;
+    max-width: 85%;
+}
+.partition{
+    font-size: 2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left:var(--m-0-75);
+    margin-bottom: var(--m-1-5);
+    color: rgb(124, 120, 120);
 }
 .timeline
 {
@@ -838,6 +850,15 @@ h3
 
 /*======== Contact ========*/
 
+.contact-id{
+    font-size: 2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left:var(--m-0-75);
+    margin-bottom: var(--m-1-5);
+    color: rgb(124, 120, 120);
+}
+
 .contact-box{
     flex : 0 0 40%;
     max-width: 40%;
@@ -885,6 +906,9 @@ h3
 .contact-input:focus ~ span{
     width: 100%;
 }
+.contact-content .contact-area .contact-label span{
+    transition: .5s;
+}
 .contact-input{
     position: absolute;
     top: 0;
@@ -903,7 +927,7 @@ h3
     top: .40rem;
     width: 100%;
     font-size: var(--small-font-size);
-    transition: .3s;
+    transition: .5s;
 }
 .contact-area{
     height: 7rem;
